@@ -735,7 +735,7 @@ img {
   margin-bottom: 24px;
 }
 
-.privacy-policy-radiobtn {
+.privacy-policy-item {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -756,13 +756,13 @@ img {
   fill: transparent;
 }
 
-.radio-btn:checked + .privacy-policy-radiobtn > .modal-checkbox {
+.radio-btn:checked + .privacy-policy-item > .modal-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.privacy-policy-link {
+.privacy-policy-title {
   color: #4d5ae5;
   line-height: 1.33;
   text-decoration: underline;
